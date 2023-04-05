@@ -16,16 +16,16 @@
 }
 
 .white {
-    background-color: #fff;
+    background-color: #ffd3ea;
 }
 
 .black {
-    background-color: #000;
+    background-color: #522f22;
 }
 
 .valid-move {
-    background-color: #0f0;
+    background-color: #ff97ac;
     }
     .invalid-move {
-    background-color: #00f;
+    background-color: #ffabbc;
     }
