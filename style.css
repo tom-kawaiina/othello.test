@@ -1,0 +1,31 @@
+#board {
+    width: 480px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #000;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.black {
+    background-color: #000;
+}
+
+.valid-move {
+    background-color: #0f0;
+    }
+    .invalid-move {
+    background-color: #00f;
+    }
